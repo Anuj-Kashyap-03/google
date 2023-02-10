@@ -1,0 +1,103 @@
+.home {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.top > div {
+  cursor: pointer;
+  padding: 3px 8px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.top > div > a {
+  color: inherit;
+}
+
+.top > div > a:hover {
+  text-decoration: underline;
+}
+
+.top > div > svg {
+  padding: 0 5px;
+  color: #5f6368;
+}
+
+/* Google logo container  */
+
+.google_logo {
+  margin-top: 40px !important;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.search {
+  margin-top: 50px !important;
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.recent {
+  display: block;
+  width: 60% !important;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: #424244;
+}
+
+.recent_buttons {
+  display: flex;
+  margin-top: 20px;
+}
+
+div.recent_buttons > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(161, 158, 158);
+  border-radius: 10px 10px 10px 10px;
+
+  color: #3c4043;
+  background-color: #f8f9fa;
+}
+
+div.recent_buttons > button {
+  height: 100%;
+  border: 1px solid rgb(232, 231, 231);
+  font-size: 14px;
+  padding: 2px 12px;
+  border-radius: 10px 10px 10px 10px;
+  color: #3c4043;
+  background-color: #f8f9fa;
+  margin-right: 7px;
+}
+
+div.recent_buttons > button:hover {
+  border: 1px solid rgb(100, 97, 97);
+}
+
+@media only screen and (max-width: 600px) {
+  .search {
+    width: 90%;
+  }
+
+  .google_logo {
+    margin-top: 60px !important;
+  }
+
+  .search {
+    margin-top: 70px !important;
+  }
+}
